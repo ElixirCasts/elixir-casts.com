@@ -1,2 +1,2 @@
-elixircasts.com
+elixir-casts.com
 ===============
