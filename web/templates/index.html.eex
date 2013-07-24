@@ -1,0 +1,9 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>ElixirCasts</title>
+</head>
+<body>
+  <%= javascript_include "application" %>
+</body>
+</html>
