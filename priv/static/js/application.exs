@@ -4,6 +4,6 @@ defmodule ElixirCasts.JSManifest do
     directory. It loads them in order
   """
   def manifest do
-    ["libs/jquery-1.9.1", "libs/handlebars-1.0.0-rc.4", "libs", "/"]
+    ["libs/jquery-1.9.1", "libs/handlebars-1.0.0-rc.4", "libs", "app.js", "/"]
   end
 end

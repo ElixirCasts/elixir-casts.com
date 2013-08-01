@@ -1,4 +1,74 @@
 /* Put your CSS here */
 html, body {
-    margin: 20px;
+  margin: 5px 20px 0 20px;
+}
+
+header#logo {
+  background-image: url("/static/images/elixir-casts-logo.draft1.png");
+  background-size: 100%;
+  background-repeat:no-repeat;
+  height: 110px;
+  display: block;
+  margin-right: 0px;
+  margin-left: auto;
+  width: 350px;
+}
+
+section#main {
+  color: #333;
+}
+
+footer {
+  font-size: 14px;
+  font-weight: lighter;
+  color: #666;
+}
+
+#main h2 {
+  border-bottom: 1px solid #ccc;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-right: 90px;
+  margin-top: -40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+section#videos {
+  margin: 20px;
+}
+
+/*
+ * Video Thumbnail
+ */
+
+article.video-thumbnail {
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  height: auto;
+  width: 290px;
+  margin: 5px;
+  overflow: hidden;
+}
+
+article.video-thumbnail:hover {
+  background-color: #eee;
+  border: 2px solid #bbb;
+}
+
+article.video-thumbnail h3 {
+  border-bottom: 1px solid #666;
+  color: #666;
+  margin-bottom: 0;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+article.video-thumbnail img.thumbnail {
+  height: auto;
+  margin-bottom: -3px;
+  max-width: 290px;
 }

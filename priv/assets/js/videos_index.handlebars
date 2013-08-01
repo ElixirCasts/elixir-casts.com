@@ -1,0 +1,11 @@
+<h2>Videos</h2>
+<section id="videos">
+  {{#each controller}}
+    {{#linkTo "videos.show" id}}
+      <article class="video-thumbnail">
+        <h3>{{name}}</h3>
+        <img src="static/images/video-thumbnail.png" class="thumbnail" />
+      </article>
+    {{/linkTo}}
+  {{/each}}
+</section>
