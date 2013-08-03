@@ -18,7 +18,6 @@ ElixirCasts.Router.map ->
 
 ElixirCasts.VideoRoute = Ember.Route.extend
   model: (params) ->
-    console.log params
     videos.filter((item, _index, self) ->
       item.id == params.video_id
     )[0]
