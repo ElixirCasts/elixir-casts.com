@@ -2,4 +2,6 @@
 /deps
 /tmp/dev
 /tmp/test
+/priv/static/js/*.js
+/priv/static/js/templates
 erl_crash.dump
