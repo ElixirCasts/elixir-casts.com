@@ -1,4 +1,24 @@
-Video Show
+<h2>Video: {{model.name}}</h2>
 
-{{model.id}}
-{{model.name}}
+<video id="video_1" class="video-js vjs-default-skin" controls preload="auto" width="800" height="500" data-setup>
+  <source src="http://media.railscasts.com/assets/episodes/videos/417-foundation.mp4" type='video/mp4' />
+  <source src="http://media.railscasts.com/assets/episodes/videos/417-foundation.webm" type='video/webm' />
+  <source src="http://media.railscasts.com/assets/episodes/videos/417-foundation.ogv" type='video/ogg' />
+</video>
+
+<nav id="video_nav">
+  <ul>
+    <li>Transcript</li>
+    <li>Comments</li>
+  </ul>
+
+  <div class="video_links">
+    <a href="#">mp4</a>
+    <a href="#">webm</a>
+    <a href="#">ogv</a>
+  </div>
+</nav>
+<details class="video_details">
+  <summary></summary>
+  <p>Foo Bar Baz</p>
+</details>

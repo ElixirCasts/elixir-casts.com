@@ -4,8 +4,10 @@
   <title>ElixirCasts</title>
   <link rel="stylesheet" type="text/css" href="/static/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/static/vendor/video-js/video-js.css">
 </head>
 <body>
+  <script src="/static/vendor/video-js/video.js"></script>
   <%= javascript_include "application" %>
 </body>
 </html>

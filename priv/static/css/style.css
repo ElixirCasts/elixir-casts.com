@@ -1,4 +1,7 @@
-/* Put your CSS here */
+/*
+ * Base css
+ */
+
 html, body {
   margin: 5px 20px 0 20px;
 }
@@ -16,12 +19,6 @@ header#logo {
 
 section#main {
   color: #333;
-}
-
-footer {
-  font-size: 14px;
-  font-weight: lighter;
-  color: #666;
 }
 
 #main h2 {
@@ -71,4 +68,70 @@ article.video-thumbnail img.thumbnail {
   height: auto;
   margin-bottom: -3px;
   max-width: 290px;
+}
+
+/*
+ * Video Page
+ */
+
+.video-js {
+  border: 1px solid #666;
+  left: 50%;
+  margin-left: -400px;
+}
+
+nav#video_nav {
+  border: 1px solid #666;
+  border-top: none;
+  left: 50%;
+  margin-left: -400px;
+  padding: 0;
+  position: relative;
+  width: 800px;
+}
+
+nav#video_nav ul {
+  font-size: 0;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+nav#video_nav li {
+  border-right: 1px solid #666;
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+nav#video_nav .video_links {
+  display: inline-block;
+  margin: 7px 10px 0 0;
+  float: right;
+}
+
+nav#video_nav .video_links a {
+  text-decoration: none;
+}
+
+details.video_details {
+  border: 1px solid #666;
+  border-top: none;
+  left: 50%;
+  margin-left: -400px;
+  min-height: 10px;
+  padding: 5px;
+  position: relative;
+  width: 790px;
+}
+
+/*
+ * Footer
+ */
+
+footer {
+  color: #666;
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 100px;
 }
