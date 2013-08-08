@@ -20,6 +20,6 @@ defmodule ElixirCasts.Mixfile do
   defp deps do
     [ { :cowboy, github: "extend/cowboy" },
       { :dynamo, "0.1.0.dev", github: "elixir-lang/dynamo" },
-      { :apprentice, github: "joeyjoejoejr/apprentice" } ]
+      { :apprentice, github: "ElixirCasts/apprentice" } ]
   end
 end
